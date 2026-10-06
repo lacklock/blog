@@ -54,6 +54,7 @@
 		"prettier-plugin-astro": "1.1.0",
 		"prettier-plugin-tailwindcss": "^0.8.1",
 		"reading-time": "^1.5.0",
-		"typescript": "^6.0.3"
+		"typescript": "^6.0.3",
+		"wrangler": "^4.147.0"
 	}
 }
