@@ -51,6 +51,7 @@
 
 /* you could refactor below to use light-dark(), depending on your target audience */
 @theme {
+	--font-article: "MiSans", "PingFang SC", "Microsoft YaHei", sans-serif;
 	--color-global-bg: oklch(98.48% 0 0);
 	--color-global-text: oklch(26.99% 0.0096 235.05);
 	--color-muted: oklch(44.6% 0.03 256.802);
