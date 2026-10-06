@@ -1,5 +1,6 @@
 ---
 import PageLayout from "@/layouts/Base.astro";
+import { Icon } from "astro-icon/components";
 
 const meta = {
 	description: "我是富贵，独立开发者，曾在沉浸式翻译工作",
@@ -12,10 +13,21 @@ const meta = {
 	<div class="prose prose-sm prose-cactus max-w-none">
 		<p>我是富贵，独立开发者，曾在沉浸式翻译工作。</p>
 		<p>
-			𝕏：<a href="https://x.com/fuguizhuo">独立开花卓富贵</a>
+			<a href="https://github.com/SwiftOldDriver/iOS-Weekly">老司机 iOS 周报</a>发起人
 		</p>
-		<p>
-			邮箱：<a href="mailto:fugui@restwensday.com">fugui@restwensday.com</a>
+		<p class="flex items-center gap-1.5">
+			<Icon name="mdi:map-marker-outline" class="size-4 shrink-0" aria-hidden="true" />
+			<span>现居杭州</span>
+		</p>
+		<p class="flex items-center gap-1.5">
+			<Icon name="simple-icons:x" class="size-3 shrink-0" aria-hidden="true" />
+			<span class="sr-only">X（推特）：</span>
+			<a href="https://x.com/fuguizhuo">独立开花卓富贵</a>
+		</p>
+		<p class="flex items-center gap-1.5">
+			<Icon name="mdi:email-outline" class="size-4 shrink-0" aria-hidden="true" />
+			<span class="sr-only">邮箱：</span>
+			<a href="mailto:fugui@restwensday.com">fugui@restwensday.com</a>
 		</p>
 	</div>
 </PageLayout>
