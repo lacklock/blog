@@ -32,7 +32,7 @@ const latestNotes = allNotes
 <PageLayout meta={{ title: "Home" }}>
 	<section>
 		<h1 class="title mb-12">Hello World!</h1>
-		<p class="mb-4 max-w-xl">我是富贵，独立开发者，曾在沉浸式翻译工作。欢迎访问我的博客。</p>
+		<p class="mb-4 max-w-2xl">我是富贵，独立开发者，曾在沉浸式翻译工作。欢迎访问我的博客。</p>
 		<SocialList />
 	</section>
 	{pinnedPosts.length > 0 && (
@@ -59,8 +59,8 @@ const latestNotes = allNotes
 			))}
 		</ul>
 	</section>
-	{latestNotes.length > 0 && (
-		<section class="mt-16">
+	<!-- {latestNotes.length > 0 && (
+		<section class="mt-16 max-w-2xl">
 			<h2 class="title text-accent mb-6 text-xl">
 				<a href="/notes/">Notes</a>
 			</h2>
@@ -72,5 +72,5 @@ const latestNotes = allNotes
 				))}
 			</ul>
 		</section>
-	)}
+	)} -->
 </PageLayout>
